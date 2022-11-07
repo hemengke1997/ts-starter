@@ -1,5 +1,5 @@
 {
-  "name": "@minko-fe/ts-start-template",
+  "name": "@minko-fe/ts-template",
   "version": "1.0.0",
   "description": "a template for typescript project or plugin",
   "main": "./dist/index.cjs",
@@ -17,7 +17,7 @@
   "author": "hemengke <https://github.com/hemengke1997>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hemengke1997/ts-start-template.git"
+    "url": "git+https://github.com/hemengke1997/ts-template.git"
   },
   "license": "MIT",
   "devDependencies": {
