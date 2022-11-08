@@ -2,7 +2,9 @@
   "name": "@minko-fe/ts-template",
   "version": "1.0.0",
   "description": "a template for typescript project or plugin",
-  "keywords": ["TODO"],
+  "keywords": [
+    "TODO"
+  ],
   "author": "hemengke <https://github.com/hemengke1997>",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -23,7 +25,7 @@
     "build": "tsup",
     "test": "vitest",
     "lint": "eslint . --fix",
-    "log": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "preinstall": "npx only-allow pnpm",
     "upgrade:deps": "pnpm update --i --L",
     "bump": "bumpp package.json --commit --push --tag",
@@ -40,6 +42,7 @@
     "@minko-fe/prettier-config": "^1.2.3",
     "@minko-fe/tsconfig": "^1.2.3",
     "bumpp": "^8.2.1",
+    "conventional-changelog-cli": "^2.2.2",
     "eslint": "^8.27.0",
     "prettier": "^2.7.1",
     "tsup": "^6.4.0",
