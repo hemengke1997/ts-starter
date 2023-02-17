@@ -19,9 +19,16 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
+          registry-url: https://registry.npmjs.org/
+          cache: pnpm
 
-      - name: Install dependencies
-        run: npx pnpm install --no-frozen-lockfile
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.31.0
+
+      - name: Install Dependencies
+        run: pnpm install --no-frozen-lockfile
 
       - name: Lint
         run: npm run lint
