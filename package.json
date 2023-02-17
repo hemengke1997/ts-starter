@@ -39,8 +39,8 @@
     "bump": "pnpm changelog && bumpp package.json CHANGELOG.md --commit --push --tag -all"
   },
   "devDependencies": {
-    "@minko-fe/eslint-config": "1.2.15",
-    "@minko-fe/tsconfig": "^1.2.15",
+    "@minko-fe/eslint-config": "1.2.16",
+    "@minko-fe/tsconfig": "^1.2.16",
     "bumpp": "^8.2.1",
     "conventional-changelog-cli": "^2.2.2",
     "eslint": "8.34.0",

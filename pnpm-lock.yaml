@@ -1,8 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@minko-fe/eslint-config': 1.2.15
-  '@minko-fe/tsconfig': ^1.2.15
+  '@minko-fe/eslint-config': 1.2.16
+  '@minko-fe/tsconfig': ^1.2.16
   bumpp: ^8.2.1
   conventional-changelog-cli: ^2.2.2
   eslint: 8.34.0
@@ -11,8 +11,8 @@ specifiers:
   vitest: ^0.28.5
 
 devDependencies:
-  '@minko-fe/eslint-config': 1.2.15_yrlhudqyxg2l7qvwle5bdpmrli
-  '@minko-fe/tsconfig': 1.2.15_typescript@4.9.5
+  '@minko-fe/eslint-config': 1.2.16_yrlhudqyxg2l7qvwle5bdpmrli
+  '@minko-fe/tsconfig': 1.2.16_typescript@4.9.5
   bumpp: 8.2.1
   conventional-changelog-cli: 2.2.2
   eslint: 8.34.0
@@ -501,13 +501,14 @@ packages:
       type-detect: 4.0.8
     dev: true
 
-  /@minko-fe/eslint-config-basic/1.2.15_z33wyv3orhzj2557p3rdwyurru:
-    resolution: {integrity: sha512-QB11L1ZtwWnThssTGzu49zqw+VzgaR3Y2kQ4n255Pu0A0MmNLcMapHghLgLVSMpztvfV4NDG1iTbKuQDjbH6ng==}
+  /@minko-fe/eslint-config-basic/1.2.16_z33wyv3orhzj2557p3rdwyurru:
+    resolution: {integrity: sha512-AbKJP3AkBz9EtNiu9idFmWgRHr0776wj7DEQcuGertOkQKgYu8FrcFkdT2RV6RIGT4evBE5xTlTQ+hqn01kX6w==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@minko-fe/prettier-config': 1.2.15_prettier@2.8.4
+      '@minko-fe/prettier-config': 1.2.16_prettier@2.8.4
       eslint: 8.34.0
+      eslint-config-prettier: 8.6.0_eslint@8.34.0
       eslint-config-standard: 17.0.0_rwq7hzy2vtlwiajbw6pmw3rkzy
       eslint-define-config: 1.15.0
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.34.0
@@ -516,7 +517,7 @@ packages:
       eslint-plugin-jsonc: 2.6.0_eslint@8.34.0
       eslint-plugin-markdown: 3.0.0_eslint@8.34.0
       eslint-plugin-n: 15.6.1_eslint@8.34.0
-      eslint-plugin-prettier: 4.2.1_yrlhudqyxg2l7qvwle5bdpmrli
+      eslint-plugin-prettier: 4.2.1_u5wnrdwibbfomslmnramz52buy
       eslint-plugin-promise: 6.1.1_eslint@8.34.0
       eslint-plugin-unicorn: 45.0.2_eslint@8.34.0
       eslint-plugin-unused-imports: 2.0.0_vqeavzxdzk2atb75l6fx3anzpi
@@ -526,25 +527,23 @@ packages:
     transitivePeerDependencies:
       - '@typescript-eslint/eslint-plugin'
       - '@typescript-eslint/parser'
-      - eslint-config-prettier
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - prettier
       - supports-color
     dev: true
 
-  /@minko-fe/eslint-config-react/1.2.15_ztlnmuobvwn63gpuifwwrjpt4i:
-    resolution: {integrity: sha512-tL+k+Vh1mRPmblIjnmtejta/oTv0UrDEzDfQkQIpsvgD9SPUYef6y6nrSPCzxyBfIudgtVub8wnw4KxZmxz9AA==}
+  /@minko-fe/eslint-config-react/1.2.16_ztlnmuobvwn63gpuifwwrjpt4i:
+    resolution: {integrity: sha512-75W2v5X2I6N4qtxiyhWEJxJln5V+CPfD9bvdLR3np7HszIpTSg+V3in0h7n/FSS/5AtjQG+tkez6rJsyTqYM+Q==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@minko-fe/eslint-config-ts': 1.2.15_ztlnmuobvwn63gpuifwwrjpt4i
+      '@minko-fe/eslint-config-ts': 1.2.16_ztlnmuobvwn63gpuifwwrjpt4i
       eslint: 8.34.0
       eslint-define-config: 1.15.0
       eslint-plugin-react: 7.32.2_eslint@8.34.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.34.0
     transitivePeerDependencies:
-      - eslint-config-prettier
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - prettier
@@ -552,37 +551,35 @@ packages:
       - typescript
     dev: true
 
-  /@minko-fe/eslint-config-ts/1.2.15_ztlnmuobvwn63gpuifwwrjpt4i:
-    resolution: {integrity: sha512-EjgoeHU8uOw7hJED5DnncYtASMpCVhazTtEepQG1iF17CvxmVEpmOVOsFvm0wSRd7PlcGe1wc6QJ4Pl5Nfgesw==}
+  /@minko-fe/eslint-config-ts/1.2.16_ztlnmuobvwn63gpuifwwrjpt4i:
+    resolution: {integrity: sha512-miHENq5N5NSexgSCNmhAa/wtWRZnTqm5L2guyCOzUYEbDqNKFfoO4NYlZ7JEDWdKhK+uJtpaOrOyZMx2couxFQ==}
     peerDependencies:
       eslint: '>=7.4.0'
       typescript: '>=3.9'
     dependencies:
-      '@minko-fe/eslint-config-basic': 1.2.15_z33wyv3orhzj2557p3rdwyurru
+      '@minko-fe/eslint-config-basic': 1.2.16_z33wyv3orhzj2557p3rdwyurru
       '@typescript-eslint/eslint-plugin': 5.52.0_6cfvjsbua5ptj65675bqcn6oza
       '@typescript-eslint/parser': 5.52.0_7kw3g6rralp5ps6mg3uyzz6azm
       eslint: 8.34.0
       eslint-define-config: 1.15.0
       typescript: 4.9.5
     transitivePeerDependencies:
-      - eslint-config-prettier
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - prettier
       - supports-color
     dev: true
 
-  /@minko-fe/eslint-config-vue/1.2.15_ztlnmuobvwn63gpuifwwrjpt4i:
-    resolution: {integrity: sha512-Th4RowSj22M+ZHdnH5ME8nGYiJYx72AAb8++AeaFfqfXbP6Cqpx+cBm10eEeRUrlzNU4rd/pDt2XIR/VyL3L7Q==}
+  /@minko-fe/eslint-config-vue/1.2.16_ztlnmuobvwn63gpuifwwrjpt4i:
+    resolution: {integrity: sha512-/BGwUDqfs1ndy58/f/ekhXCHIh7zVHxYfviDjwrL25Nab4cbzn7qmkPazMVskXl72LDNnXdYgAB7RdqjH+h91Q==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@minko-fe/eslint-config-ts': 1.2.15_ztlnmuobvwn63gpuifwwrjpt4i
+      '@minko-fe/eslint-config-ts': 1.2.16_ztlnmuobvwn63gpuifwwrjpt4i
       eslint: 8.34.0
       eslint-define-config: 1.15.0
       eslint-plugin-vue: 9.9.0_eslint@8.34.0
     transitivePeerDependencies:
-      - eslint-config-prettier
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - prettier
@@ -590,13 +587,13 @@ packages:
       - typescript
     dev: true
 
-  /@minko-fe/eslint-config/1.2.15_yrlhudqyxg2l7qvwle5bdpmrli:
-    resolution: {integrity: sha512-Fc9phgkNuFrh79LENzRyJTKa4GMNLW/Pgq1FMu/dz0dcAJliYDgbQp9etwkdX3Mi7j2hp8vGRNEeKg+QLWcRDw==}
+  /@minko-fe/eslint-config/1.2.16_yrlhudqyxg2l7qvwle5bdpmrli:
+    resolution: {integrity: sha512-Da8oPvRjJmlzjHdDFrEuyvad0+q3aEuU11HFzBnhMzkkPU5oyrBC0arNSpg6Uk3xn+ByA4MX3hPHgXqklZ3kQg==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@minko-fe/eslint-config-react': 1.2.15_ztlnmuobvwn63gpuifwwrjpt4i
-      '@minko-fe/eslint-config-vue': 1.2.15_ztlnmuobvwn63gpuifwwrjpt4i
+      '@minko-fe/eslint-config-react': 1.2.16_ztlnmuobvwn63gpuifwwrjpt4i
+      '@minko-fe/eslint-config-vue': 1.2.16_ztlnmuobvwn63gpuifwwrjpt4i
       '@typescript-eslint/eslint-plugin': 5.52.0_6cfvjsbua5ptj65675bqcn6oza
       '@typescript-eslint/parser': 5.52.0_7kw3g6rralp5ps6mg3uyzz6azm
       eslint: 8.34.0
@@ -610,23 +607,22 @@ packages:
       jsonc-eslint-parser: 2.1.0
       typescript: 4.9.5
     transitivePeerDependencies:
-      - eslint-config-prettier
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - prettier
       - supports-color
     dev: true
 
-  /@minko-fe/prettier-config/1.2.15_prettier@2.8.4:
-    resolution: {integrity: sha512-g2mw5NjAxGrzBuGxLzI+aOYrMdGadmBzZlAIvKtpJvIofeKAdH7ZFYLTg4L39zHT5GosrRDJGZrmaOx0VI7gGQ==}
+  /@minko-fe/prettier-config/1.2.16_prettier@2.8.4:
+    resolution: {integrity: sha512-ohMvB2EiaQCAvHzyFvAr6UntBXWfuL1HjA9bxsOjSd9G+jzsXKzE/xY34biQXTtYDHx4YHRdfTmj0vo9JkmcQg==}
     peerDependencies:
       prettier: '>=2.0.0'
     dependencies:
       prettier: 2.8.4
     dev: true
 
-  /@minko-fe/tsconfig/1.2.15_typescript@4.9.5:
-    resolution: {integrity: sha512-hmr2eviB1rhniW369Sh9bvXKp+iwH2X+8OIs2GUkBGJhDb70kO/2amQ+YVQBkd4DzcuMbKO4ZV5vggUQlFREhQ==}
+  /@minko-fe/tsconfig/1.2.16_typescript@4.9.5:
+    resolution: {integrity: sha512-/b9xxSlMcjsJ76ic4Fo0cTHqwZZedsAGFQXvHObrKIbI5vJBBaNswm5EuuDlQBcbGOQ8ocQXt+7zUHxPNy1ePA==}
     peerDependencies:
       typescript: '>=3.9'
     dependencies:
@@ -1702,6 +1698,15 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
+  /eslint-config-prettier/8.6.0_eslint@8.34.0:
+    resolution: {integrity: sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 8.34.0
+    dev: true
+
   /eslint-config-standard/17.0.0_rwq7hzy2vtlwiajbw6pmw3rkzy:
     resolution: {integrity: sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==}
     peerDependencies:
@@ -1862,7 +1867,7 @@ packages:
       semver: 7.3.8
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_yrlhudqyxg2l7qvwle5bdpmrli:
+  /eslint-plugin-prettier/4.2.1_u5wnrdwibbfomslmnramz52buy:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1874,6 +1879,7 @@ packages:
         optional: true
     dependencies:
       eslint: 8.34.0
+      eslint-config-prettier: 8.6.0_eslint@8.34.0
       prettier: 2.8.4
       prettier-linter-helpers: 1.0.0
     dev: true
@@ -1931,7 +1937,7 @@ packages:
       ci-info: 3.8.0
       clean-regexp: 1.0.0
       eslint: 8.34.0
-      esquery: 1.4.1
+      esquery: 1.4.2
       indent-string: 4.0.0
       is-builtin-module: 3.2.1
       jsesc: 3.0.2
@@ -2105,6 +2111,13 @@ packages:
 
   /esquery/1.4.1:
     resolution: {integrity: sha512-3ZggxvMv5EEY1ssUVyHSVt0oPreyBfbUi1XikJVfjFiBeBDLdrb0IWoDiEwqT/2sUQi0TGaWtFhOGDD8RTpXgQ==}
+    engines: {node: '>=0.10'}
+    dependencies:
+      estraverse: 5.3.0
+    dev: true
+
+  /esquery/1.4.2:
+    resolution: {integrity: sha512-JVSoLdTlTDkmjFmab7H/9SL9qGSyjElT3myyKp7krqjVFQCDLmj1QFaCLRFBszBKI0XVZaiiXvuPIX3ZwHe1Ng==}
     engines: {node: '>=0.10'}
     dependencies:
       estraverse: 5.3.0
@@ -4312,7 +4325,7 @@ packages:
       eslint-scope: 7.1.1
       eslint-visitor-keys: 3.3.0
       espree: 9.4.1
-      esquery: 1.4.1
+      esquery: 1.4.2
       lodash: 4.17.21
       semver: 7.3.8
     transitivePeerDependencies:
