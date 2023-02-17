@@ -1,24 +1,29 @@
 lockfileVersion: 5.4
 
-specifiers:
-  '@minko-fe/eslint-config': 1.2.16
-  '@minko-fe/tsconfig': ^1.2.16
-  bumpp: ^8.2.1
-  conventional-changelog-cli: ^2.2.2
-  eslint: 8.34.0
-  tsup: ^6.6.3
-  typescript: ^4.9.5
-  vitest: ^0.28.5
+importers:
 
-devDependencies:
-  '@minko-fe/eslint-config': 1.2.16_yrlhudqyxg2l7qvwle5bdpmrli
-  '@minko-fe/tsconfig': 1.2.16_typescript@4.9.5
-  bumpp: 8.2.1
-  conventional-changelog-cli: 2.2.2
-  eslint: 8.34.0
-  tsup: 6.6.3_typescript@4.9.5
-  typescript: 4.9.5
-  vitest: 0.28.5
+  .:
+    specifiers:
+      '@minko-fe/eslint-config': 1.2.16
+      '@minko-fe/tsconfig': ^1.2.16
+      bumpp: ^8.2.1
+      conventional-changelog-cli: ^2.2.2
+      eslint: 8.34.0
+      tsup: ^6.6.3
+      typescript: ^4.9.5
+      vitest: ^0.28.5
+    devDependencies:
+      '@minko-fe/eslint-config': 1.2.16_yrlhudqyxg2l7qvwle5bdpmrli
+      '@minko-fe/tsconfig': 1.2.16_typescript@4.9.5
+      bumpp: 8.2.1
+      conventional-changelog-cli: 2.2.2
+      eslint: 8.34.0
+      tsup: 6.6.3_typescript@4.9.5
+      typescript: 4.9.5
+      vitest: 0.28.5
+
+  packages/package-name:
+    specifiers: {}
 
 packages:
 
