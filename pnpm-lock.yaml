@@ -4,8 +4,8 @@ importers:
 
   .:
     specifiers:
-      '@minko-fe/eslint-config': 1.2.16
-      '@minko-fe/tsconfig': ^1.2.16
+      '@minko-fe/eslint-config': 1.2.17
+      '@minko-fe/tsconfig': ^1.2.17
       bumpp: ^8.2.1
       conventional-changelog-cli: ^2.2.2
       eslint: 8.34.0
@@ -13,8 +13,8 @@ importers:
       typescript: ^4.9.5
       vitest: ^0.28.5
     devDependencies:
-      '@minko-fe/eslint-config': 1.2.16_yrlhudqyxg2l7qvwle5bdpmrli
-      '@minko-fe/tsconfig': 1.2.16_typescript@4.9.5
+      '@minko-fe/eslint-config': 1.2.17_eslint@8.34.0
+      '@minko-fe/tsconfig': 1.2.17_typescript@4.9.5
       bumpp: 8.2.1
       conventional-changelog-cli: 2.2.2
       eslint: 8.34.0
@@ -506,12 +506,12 @@ packages:
       type-detect: 4.0.8
     dev: true
 
-  /@minko-fe/eslint-config-basic/1.2.16_z33wyv3orhzj2557p3rdwyurru:
-    resolution: {integrity: sha512-AbKJP3AkBz9EtNiu9idFmWgRHr0776wj7DEQcuGertOkQKgYu8FrcFkdT2RV6RIGT4evBE5xTlTQ+hqn01kX6w==}
+  /@minko-fe/eslint-config-basic/1.2.17_c6kmtievx6fwwhfgj75jp6jiim:
+    resolution: {integrity: sha512-y85xz7IFdeaGygYZ3K6nPONoGU7nqwq7xhYGfw1rR6/il/vhJyEFbbdMYnlUMny/bvnN6d11eS+ILBeS5zUBDg==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@minko-fe/prettier-config': 1.2.16_prettier@2.8.4
+      '@minko-fe/prettier-config': 1.2.17_prettier@2.8.4
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       eslint-config-standard: 17.0.0_rwq7hzy2vtlwiajbw6pmw3rkzy
@@ -528,22 +528,22 @@ packages:
       eslint-plugin-unused-imports: 2.0.0_vqeavzxdzk2atb75l6fx3anzpi
       eslint-plugin-yml: 1.5.0_eslint@8.34.0
       jsonc-eslint-parser: 2.1.0
+      prettier: 2.8.4
       yaml-eslint-parser: 1.1.0
     transitivePeerDependencies:
       - '@typescript-eslint/eslint-plugin'
       - '@typescript-eslint/parser'
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
-      - prettier
       - supports-color
     dev: true
 
-  /@minko-fe/eslint-config-react/1.2.16_ztlnmuobvwn63gpuifwwrjpt4i:
-    resolution: {integrity: sha512-75W2v5X2I6N4qtxiyhWEJxJln5V+CPfD9bvdLR3np7HszIpTSg+V3in0h7n/FSS/5AtjQG+tkez6rJsyTqYM+Q==}
+  /@minko-fe/eslint-config-react/1.2.17_7kw3g6rralp5ps6mg3uyzz6azm:
+    resolution: {integrity: sha512-snfq9Uapw6c0FQ/YAC8Iw1GHsLbKcZ346o/3ry5lCmmVqsrnoUbIX8ep4jaawD1FmbqIvn4q4V+C2Q8W+j2PEQ==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@minko-fe/eslint-config-ts': 1.2.16_ztlnmuobvwn63gpuifwwrjpt4i
+      '@minko-fe/eslint-config-ts': 1.2.17_7kw3g6rralp5ps6mg3uyzz6azm
       eslint: 8.34.0
       eslint-define-config: 1.15.0
       eslint-plugin-react: 7.32.2_eslint@8.34.0
@@ -551,18 +551,17 @@ packages:
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
-      - prettier
       - supports-color
       - typescript
     dev: true
 
-  /@minko-fe/eslint-config-ts/1.2.16_ztlnmuobvwn63gpuifwwrjpt4i:
-    resolution: {integrity: sha512-miHENq5N5NSexgSCNmhAa/wtWRZnTqm5L2guyCOzUYEbDqNKFfoO4NYlZ7JEDWdKhK+uJtpaOrOyZMx2couxFQ==}
+  /@minko-fe/eslint-config-ts/1.2.17_7kw3g6rralp5ps6mg3uyzz6azm:
+    resolution: {integrity: sha512-P+XDYhTQxc+OS2uh5Sh4WYl+W4LAgsLQRmksNnfp9Hh6t6yzgyhIAOzVqGcH3q6Ir9/jb9u0kmizFylek8iMRg==}
     peerDependencies:
       eslint: '>=7.4.0'
       typescript: '>=3.9'
     dependencies:
-      '@minko-fe/eslint-config-basic': 1.2.16_z33wyv3orhzj2557p3rdwyurru
+      '@minko-fe/eslint-config-basic': 1.2.17_c6kmtievx6fwwhfgj75jp6jiim
       '@typescript-eslint/eslint-plugin': 5.52.0_6cfvjsbua5ptj65675bqcn6oza
       '@typescript-eslint/parser': 5.52.0_7kw3g6rralp5ps6mg3uyzz6azm
       eslint: 8.34.0
@@ -571,34 +570,32 @@ packages:
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
-      - prettier
       - supports-color
     dev: true
 
-  /@minko-fe/eslint-config-vue/1.2.16_ztlnmuobvwn63gpuifwwrjpt4i:
-    resolution: {integrity: sha512-/BGwUDqfs1ndy58/f/ekhXCHIh7zVHxYfviDjwrL25Nab4cbzn7qmkPazMVskXl72LDNnXdYgAB7RdqjH+h91Q==}
+  /@minko-fe/eslint-config-vue/1.2.17_7kw3g6rralp5ps6mg3uyzz6azm:
+    resolution: {integrity: sha512-ibWb+n13S1HnKiEZLQkHSQEU7rNDR4aoIUZ+QlYOSdm3AKcvYMTLF16Uvd00rlridd+1McnJYDlgjRCNk4kPSA==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@minko-fe/eslint-config-ts': 1.2.16_ztlnmuobvwn63gpuifwwrjpt4i
+      '@minko-fe/eslint-config-ts': 1.2.17_7kw3g6rralp5ps6mg3uyzz6azm
       eslint: 8.34.0
       eslint-define-config: 1.15.0
       eslint-plugin-vue: 9.9.0_eslint@8.34.0
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
-      - prettier
       - supports-color
       - typescript
     dev: true
 
-  /@minko-fe/eslint-config/1.2.16_yrlhudqyxg2l7qvwle5bdpmrli:
-    resolution: {integrity: sha512-Da8oPvRjJmlzjHdDFrEuyvad0+q3aEuU11HFzBnhMzkkPU5oyrBC0arNSpg6Uk3xn+ByA4MX3hPHgXqklZ3kQg==}
+  /@minko-fe/eslint-config/1.2.17_eslint@8.34.0:
+    resolution: {integrity: sha512-mpoJZXQA0yAolRtKSMLe0CMAIJ4rZLulHjcDnRCNPMKpRveo+FuVMlHIlidfKLegpMIhLBNAAnK6uYIoTcJe5w==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@minko-fe/eslint-config-react': 1.2.16_ztlnmuobvwn63gpuifwwrjpt4i
-      '@minko-fe/eslint-config-vue': 1.2.16_ztlnmuobvwn63gpuifwwrjpt4i
+      '@minko-fe/eslint-config-react': 1.2.17_7kw3g6rralp5ps6mg3uyzz6azm
+      '@minko-fe/eslint-config-vue': 1.2.17_7kw3g6rralp5ps6mg3uyzz6azm
       '@typescript-eslint/eslint-plugin': 5.52.0_6cfvjsbua5ptj65675bqcn6oza
       '@typescript-eslint/parser': 5.52.0_7kw3g6rralp5ps6mg3uyzz6azm
       eslint: 8.34.0
@@ -614,20 +611,19 @@ packages:
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
-      - prettier
       - supports-color
     dev: true
 
-  /@minko-fe/prettier-config/1.2.16_prettier@2.8.4:
-    resolution: {integrity: sha512-ohMvB2EiaQCAvHzyFvAr6UntBXWfuL1HjA9bxsOjSd9G+jzsXKzE/xY34biQXTtYDHx4YHRdfTmj0vo9JkmcQg==}
+  /@minko-fe/prettier-config/1.2.17_prettier@2.8.4:
+    resolution: {integrity: sha512-l27c3y4/zsEU+Wyv5CSqwJPvGTfF5tfjSos0JyqneRQWyt0C9LMJOgCvS+wH4u2YOrozcigasi7p7DkuZQgcEg==}
     peerDependencies:
       prettier: '>=2.0.0'
     dependencies:
       prettier: 2.8.4
     dev: true
 
-  /@minko-fe/tsconfig/1.2.16_typescript@4.9.5:
-    resolution: {integrity: sha512-/b9xxSlMcjsJ76ic4Fo0cTHqwZZedsAGFQXvHObrKIbI5vJBBaNswm5EuuDlQBcbGOQ8ocQXt+7zUHxPNy1ePA==}
+  /@minko-fe/tsconfig/1.2.17_typescript@4.9.5:
+    resolution: {integrity: sha512-Y3a4rZEQ+tKpaSJYUex+Y/JSxCtCjuVyrPTODhN3A44rjODbOr8Tbo69LF3bOGlkqnFf0aTA0UyTfD/MdzEb+w==}
     peerDependencies:
       typescript: '>=3.9'
     dependencies:
