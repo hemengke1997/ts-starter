@@ -1,8 +1,7 @@
 {
-  "name": "@minko-fe/ts-template-monorepo",
+  "name": "ts-template",
   "type": "module",
   "version": "1.0.0",
-  "private": true,
   "packageManager": "pnpm@7.30.0",
   "description": "a template for typescript project or plugin",
   "author": "hemengke <https://github.com/hemengke1997>",
@@ -14,11 +13,25 @@
   "keywords": [
     "TODO"
   ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "README.md"
+  ],
   "scripts": {
-    "dev": "pnpm -r --parallel run dev",
-    "build": "pnpm -r --parallel run build",
-    "test": "pnpm -r --parallel run test",
-    "release": "pnpm run build && pnpm publish --access public",
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "test": "vitest",
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint .",
     "up": "taze -I -w -r",
