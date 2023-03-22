@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "baseUrl": ".",
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noImplicitAny": false,
