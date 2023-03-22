@@ -1,7 +1,7 @@
 {
   "name": "@minko-fe/ts-template-monorepo",
   "type": "module",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": true,
   "packageManager": "pnpm@7.30.0",
   "description": "a template for typescript project or plugin",
