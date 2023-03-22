@@ -26,9 +26,6 @@ importers:
       typescript: 5.0.2
       vitest: 0.29.7
 
-  packages/package-name:
-    specifiers: {}
-
 packages:
 
   /@antfu/ni/0.20.0:
