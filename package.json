@@ -1,7 +1,7 @@
 {
   "name": "ts-template",
   "type": "module",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "packageManager": "pnpm@7.30.0",
   "description": "a template for typescript project or plugin",
   "author": "hemengke <https://github.com/hemengke1997>",
