@@ -2,11 +2,19 @@
   "name": "package-name",
   "version": "1.0.0",
   "description": "TODO",
-  "author": "hemengke1997",
-  "license": "MIT",
   "keywords": [
     "TODO"
   ],
+  "license": "MIT",
+  "author": "hemengke1997",
+  "files": [
+    "CHANGELOG.md",
+    "README.md",
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -14,14 +22,6 @@
       "import": "./dist/index.js"
     }
   },
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "dist",
-    "CHANGELOG.md",
-    "README.md"
-  ],
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",
