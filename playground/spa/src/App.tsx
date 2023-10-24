@@ -8,6 +8,7 @@ function App() {
 
   return (
     <div className='App'>
+      <h1>this is ts-starter playground</h1>
       <div>
         <a href='https://vitejs.dev' target='_blank' rel='noreferrer'>
           <img src={viteLogo} className='logo' alt='Vite logo' />
