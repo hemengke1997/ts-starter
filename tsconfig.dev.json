@@ -3,8 +3,6 @@
   "compilerOptions": {
     "baseUrl": ".",
     "noEmit": true,
-    "noImplicitAny": false,
-    "noUnusedLocals": false,
-    "noUnusedParameters": false
+    "strict": false
   }
 }
