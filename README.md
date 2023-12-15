@@ -1,4 +1,4 @@
-# ts-template
+# ts-starter
 
 > a template for typescript project or plugin
 
