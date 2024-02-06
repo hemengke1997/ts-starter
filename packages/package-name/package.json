@@ -23,10 +23,10 @@
     }
   },
   "scripts": {
-    "dev": "tsup --watch",
-    "build": "tsup",
+    "dev": "tsup src/index.ts --watch",
+    "build": "rm -rf dist && tsup src/index.ts",
     "release": "pnpm run build && pnpm publish --access public",
     "test": "vitest",
-    "upgrade:deps": "pnpm update --i --L"
+    "up": "taze -I -w"
   }
 }
