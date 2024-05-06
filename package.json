@@ -1,8 +1,8 @@
 {
-  "name": "@minko-fe/ts-template-monorepo",
+  "name": "@minko-fe/ts-starter-monorepo",
   "version": "0.0.0",
   "private": true,
-  "description": "a template for typescript project or plugin",
+  "description": "a starter for typescript project or plugin",
   "type": "module",
   "keywords": [
     "TODO"
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hemengke1997/ts-template.git"
+    "url": "git+https://github.com/hemengke1997/ts-starter.git"
   },
   "author": "hemengke <https://github.com/hemengke1997>",
   "files": [
@@ -33,6 +33,7 @@
     "build": "turbo build",
     "lint": "turbo lint",
     "test": "turbo test",
+    "prepare": "simple-git-hooks",
     "commitlint": "commitlint -e",
     "up": "taze -I -w",
     "bump": "changeset",

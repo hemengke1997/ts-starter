@@ -1,6 +1,5 @@
-# ts-template
+# ts-starter-monorepo
 
-> a template for typescript project or plugin
-
-- branch `master` => single repo template
-- branch `monorepo` => monorepo template
+```sh
+degit hemengke1997/ts-starter-monorepo <your-project>
+```
