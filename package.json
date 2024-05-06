@@ -36,7 +36,7 @@
     "prepare": "simple-git-hooks",
     "commitlint": "commitlint -e",
     "up": "taze -I -w",
-    "bump": "changeset",
+    "changeset": "changeset",
     "version": "changeset version && changeset tag"
   },
   "devDependencies": {
@@ -47,7 +47,6 @@
     "@minko-fe/eslint-config": "^2.1.2",
     "@minko-fe/tsconfig": "^2.0.7",
     "bumpp": "^9.3.0",
-    "conventional-changelog-cli": "^4.1.0",
     "eslint": "^8.56.0",
     "simple-git-hooks": "^2.9.0",
     "taze": "^0.11.4",
