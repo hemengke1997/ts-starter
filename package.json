@@ -1,5 +1,5 @@
 {
-  "name": "ts-template",
+  "name": "ts-starter",
   "version": "0.0.0",
   "description": "a template for typescript project or plugin",
   "type": "module",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hemengke1997/ts-template.git"
+    "url": "git+https://github.com/hemengke1997/ts-starter.git"
   },
   "author": "hemengke <https://github.com/hemengke1997>",
   "files": [
