@@ -3,7 +3,6 @@
 *.cpuprofile
 *.local
 *.log
-/.vscode/
 dist
 dist-ssr
 explorations
