@@ -1,8 +1,10 @@
-import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
+import { preset } from 'vite-config-preset'
 
 // https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [react()],
-  base: '/ts-starter/',
-})
+export default defineConfig((env) =>
+  preset({
+    env,
+    base: '/ts-starter/',
+  }),
+)
