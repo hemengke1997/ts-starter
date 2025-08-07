@@ -1,77 +1,67 @@
 {
   "name": "ts-starter",
-  "version": "0.0.0",
-  "description": "a template for typescript project or plugin",
   "type": "module",
-  "keywords": [
-    "TODO"
-  ],
+  "version": "0.0.0",
+  "description": "TODO",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hemengke1997/ts-starter.git"
   },
-  "author": "hemengke <https://github.com/hemengke1997>",
-  "files": [
-    "dist"
+  "keywords": [
+    "TODO"
   ],
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "sideEffects": false,
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
-  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "dev": "tsup --watch",
-    "build": "tsup",
-    "build:pages": "npm run build && cd playground/spa && npm run build",
-    "test": "run-s test:unit test:serve test:build",
-    "test:unit": "vitest run",
-    "test:serve": "vitest run -c vitest.config.e2e.ts",
-    "test:build": "cross-env VITE_TEST_BUILD=1 vitest run -c vitest.config.e2e.ts",
+    "dev": "rslib build --watch",
+    "build": "rslib build",
     "prepare": "simple-git-hooks",
-    "lint-staged": "tsc --noEmit && lint-staged",
+    "lint-staged": "lint-staged",
     "commitlint": "commitlint -e",
-    "lint": "tsc --noEmit && eslint . --fix",
-    "up": "taze -I -w -r",
+    "lint": "eslint . --fix",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "bump": "bumpp package.json -c --no-push -t --all -x \"npm run changelog\""
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.0",
-    "@minko-fe/commitlint-config": "^2.1.2",
-    "@minko-fe/eslint-config": "^4.1.1",
-    "@minko-fe/prettier-config": "^2.2.3",
-    "@minko-fe/tsconfig": "^2.1.1",
-    "bumpp": "^9.8.1",
+    "@antfu/eslint-config": "^5.2.0",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@rslib/core": "^0.11.2",
+    "bumpp": "^10.2.2",
     "conventional-changelog-cli": "^5.0.0",
-    "cross-env": "^7.0.3",
-    "eslint": "^9.15.0",
-    "lint-staged": "^15.2.10",
+    "cross-env": "^10.0.0",
+    "eslint": "^9.32.0",
+    "eslint-plugin-format": "^1.0.1",
+    "lint-staged": "^16.1.4",
     "npm-run-all": "^4.1.5",
-    "simple-git-hooks": "^2.11.1",
-    "tsup": "8.3.0",
-    "typescript": "^5.7.2",
-    "vite": "^5.4.11",
-    "vitest": "^2.1.6",
-    "vitest-e2e": "^0.0.10"
+    "simple-git-hooks": "^2.13.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.0.6",
+    "vitest": "^3.2.4"
   },
   "simple-git-hooks": {
     "commit-msg": "npm run commitlint",
     "pre-commit": "npm run lint-staged"
   },
-  "commitlint": {
-    "extends": [
-      "@minko-fe/commitlint-config"
-    ]
-  },
   "lint-staged": {
     "*": "eslint --fix"
   },
-  "prettier": "@minko-fe/prettier-config"
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
 }

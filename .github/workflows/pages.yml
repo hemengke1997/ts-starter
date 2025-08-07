@@ -36,4 +36,4 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.ghb_token }}
           BRANCH: gh-pages
-          FOLDER: playground/spa/dist
+          FOLDER: playground/dist

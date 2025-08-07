@@ -1,6 +1,7 @@
 # ts-starter
 
-> a template for typescript project or plugin
+> A library starter template powered by rslib
 
-- branch `master` => single repo template
-- branch `monorepo` => monorepo template
+```
+degit hemengke1997/ts-starter <your-project>
+```

@@ -1,2 +1,12 @@
-import { defineConfig } from '@minko-fe/eslint-config'
-export default defineConfig()
+import antfu from '@antfu/eslint-config'
+
+export default antfu(
+  {
+    rules: {
+      'no-console': 'off',
+    },
+    stylistic: {
+      quotes: 'single',
+    },
+  },
+)
